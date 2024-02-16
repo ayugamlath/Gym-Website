@@ -113,3 +113,54 @@
     right: 4rem;
     top: 7rem;
 }
+.heart-rate>img{
+    width: 2rem;
+}
+.heart-rate>:nth-child(2){
+    color: var(--gray);
+}
+.heart-rate>:nth-child(3){
+    color: white;
+    font-size: 1.5rem;
+}
+.hero-image{
+    position: absolute;
+    top: 10rem;
+    right: 8rem;
+    width: 23rem;
+    
+}
+.hero-image-back{
+    position: absolute;
+    top: 4rem;
+    z-index: -1;
+    width: 15rem;
+    right: 20rem;
+}
+.calories{
+    display: flex;
+    gap: 2rem;
+    background-color: var(--caloryCard);
+    border-radius: 5px;
+    padding: 1rem;
+    width: fit-content;
+    position: absolute;
+    top: 35rem;
+    right: 38rem;
+
+}
+.calories>ing{
+    width: 3rem;
+}
+.calories>div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.calories>div:nth-child(2){
+    color: aliceblue;
+}
+.calories>div:nth-child(1){
+    color:var(--gray)
+}
+

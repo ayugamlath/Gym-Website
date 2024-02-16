@@ -29,7 +29,7 @@ const Hero = () => {
                 </span>
               </div>
               <div>
-                <span>In this Reactjs project, we will make an awesome responsive gym website step-by-step. We learn React hooks, modern CSS, framer motion, and many more. For contact, we will use the Email js library to make this site more functional and practical.</span>
+                <span>We will help you to shape and build your ideal body to seems as looks like a bull.Join us.Be a bull.Not a cow.</span>
               </div>
             </div>
             {/* figures */}
@@ -55,9 +55,24 @@ const Hero = () => {
         </div>
         <div className='right-h'>
           <button className="btn">Join Now</button>
+
+          <div className="heart-rate">
           <img src={heart} alt="" />
           <span>Heart Rate</span>
           <span>118 bpm</span>
+          </div>
+          {/* Hero images */}
+          <img src={hero_image} alt="" className='hero-image' />
+          <img src={hero_image_back} alt="" className='hero-image-back' />
+        {/* calories */}
+        <div className="calories">
+          <img src={calories} alt="" />
+          <div>
+          <span>Calories Burned</span>
+          <span>220 kcal</span>
+          
+          </div>
+        </div>
         </div>
     </div>
   )
