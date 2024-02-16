@@ -143,13 +143,13 @@
     background-color: var(--caloryCard);
     border-radius: 5px;
     padding: 1rem;
-    width: fit-content;
+    width: 250px;
     position: absolute;
     top: 35rem;
-    right: 38rem;
+    right: 40rem;
 
 }
-.calories>ing{
+.calories>img{
     width: 3rem;
 }
 .calories>div{
@@ -157,10 +157,20 @@
     flex-direction: column;
     justify-content: space-between;
 }
-.calories>div:nth-child(2){
+.calories>div>:nth-child(2){
     color: aliceblue;
+    font-size: 1.5rem;
 }
-.calories>div:nth-child(1){
+.calories>div>:nth-child(1){
     color:var(--gray)
 }
 
+.girl{
+    position: absolute;
+    top: 0rem;
+    right: 54rem;
+    width: 32rem;
+    z-index: -1;
+    height: 48rem;
+    
+}

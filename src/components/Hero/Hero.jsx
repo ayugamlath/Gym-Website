@@ -5,6 +5,7 @@ import hero_image from "../../assets/hero_image.png"
 import hero_image_back from "../../assets/hero_image_back.png"
 import heart from "../../assets/heart.png"
 import calories from "../../assets/calories.png"
+import girl from "../../assets/girl.png"
 
 const Hero = () => {
   return (
@@ -64,6 +65,8 @@ const Hero = () => {
           {/* Hero images */}
           <img src={hero_image} alt="" className='hero-image' />
           <img src={hero_image_back} alt="" className='hero-image-back' />
+          <img src={girl} alt="" className='girl' />
+
         {/* calories */}
         <div className="calories">
           <img src={calories} alt="" />
