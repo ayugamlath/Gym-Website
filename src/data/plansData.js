@@ -16,6 +16,7 @@ export const plansData = [
       "2 hours of excercises",
       "Free consultaion to coaches",
       "Access to The Community",
+      "asdasda"
     ],
   },
   {
